@@ -2,6 +2,12 @@
 
 This project implements a pipeline to detect exoplanet transits in TESS light curve data.
 
+TESS stands for Transiting Exoplanet Survey Satellite.
+Transiting → it looks for planets that pass in front of their stars
+Exoplanet → planets beyond our solar system
+Survey → it scans large portions of the sky, not just one target
+Satellite → it lives in space, safely above Earth’s atmosphere
+
 ## Features
 - **Data Acquisition**: Download light curves from the TESS mission using `lightkurve`.
 - **Preprocessing**: Remove outliers and detrend stellar variability.
